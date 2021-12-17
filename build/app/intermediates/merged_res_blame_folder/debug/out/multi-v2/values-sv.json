@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\zette\\StudioProjects\\mi_card_flutter\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "C:\\Users\\zette\\repositories\\my_card\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\zette\\.gradle\\caches\\transforms-3\\2eb885f97fd035152f7fd48c5013e690\\transformed\\core-1.1.0\\res\\values-sv\\values-sv.xml",

@@ -1,31 +1,43 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MyApp()
-  );
+  runApp(MyApp());
 }
 
-class MyApp  extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color(0xFFE9BF98),
         body: SafeArea(
-          child: Container(
-            height: 100.0,
-            width: 400.0,
-            margin: EdgeInsets.symmetric(vertical: 50.0,horizontal: 10.0),
-            padding: EdgeInsets.all(10.0),
-            color: Colors.white,
-            child: Text('Hello'),
-          ),
-        ),
+            child: Column(
+          children: <Widget>[
+            CircleAvatar(
+              radius: 50.0,
+              backgroundImage: AssetImage('images/jana.JPG'),
+              //backgroundColor: Color.fromRGBO(168, 205, 239, 100),
+              //backgroundColor: Color(0xFFE89F5B).withOpacity(0.5),
+            ),
+            Text(
+              'Jana Settel',
+              style: TextStyle(
+                  fontFamily: 'Fuzzybubbles',
+                  fontSize: 40.0,
+                  color: Color(0xFF945252)),
+            ),
+            Text(
+              'FLUTTER DEVELOPER',
+              style: TextStyle(
+                fontSize: 25.0,
+                color: Colors.brown,
+                fontFamily: 'Luxurious Script',
+              ),
+            )
+          ],
+        )),
       ),
     );
   }
 }
-
-
